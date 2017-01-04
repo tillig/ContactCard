@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Functional Tests for ContactCard</title>
+	<script type="text/javascript" src="../lib/prototype.js"></script>
+	<script type="text/javascript" src="../src/contactcard.js"></script>
+	<script type="text/javascript" src="contactcardlist.js"></script>
+	<style type="text/css">
+	<!--
+		body{
+			bgcolor: yellow;
+			margin: 0px;
+			padding: 0px;
+		}
+		.contactcard{
+			color: red;
+			text-decoration: underline;
+		}
+		.highlight{
+			background-color: yellow;
+		}
+	-->
+	</style>
+</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0" height="100%" width="100%">
+<tr>
+<td align="left" valign="top">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+<td align="center" valign="top">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+<td align="right" valign="top">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+</tr>
+
+<tr>
+<td align="left" valign="middle">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+<td align="center" valign="middle">
+<h1>Functional Tests for ContactCard</h1>
+<a href="#" class="contactcard.testuser1">Test User 1 [CSS Link]</a><br />
+<a href="http://www.paraesthesia.com">Test User 1 [No CSS Link/No Slash]</a><br />
+<a href="http://www.paraesthesia.com/">Test User 1 [No CSS Link/Slash]</a><br />
+<span class="contactcard.testuser1">Test User 1 [Span]</span><br />
+<span class="contactcard.nogamertag">No Gamertag [Span]</span><br />
+<span class="contactcard.noname">No Name [Span]</span><br />
+<span class="contactcard.noemailname">No Email Name [Span]</span><br />
+<span class="contactcard.noemaildomain">No Email Domain [Span]</span><br />
+<span class="contactcard.noemail">No Email [Span]</span><br />
+<span class="contactcard.nourl">No URL [Span]</span><br />
+<span class="contactcard.nodescription">No Description [Span]</span><br />
+<span class="contactcard.nocontact">No Contact Info [Span]</span><br />
+<span class="contactcard.nothing">No Info [Span]</span><br />
+<hr />
+<a href="#" class="contactcard.testuser1" rel="friend met">Test User 1/XFN [Link]</a><br />
+<a href="#" rel="friend met">XFN Only [Link]</a><br />
+<span class="contactcard.testuser1 highlight">Multiple CSS Classes [Span]</span><br />
+<span class="contactcard.notfound">Not Found [Span]</span><br />
+<span class="contactcard.">Empty Card [Span]</span><br />
+<span class="contactcard">No Card [Span]</span><br />
+<a href="http://www.google.com/">No Matching URL [No CSS Link/Slash]</a><br />
+<span>No CSS Class [Span]</span><br /><br /><br />
+</td>
+<td align="right" valign="middle">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+</tr>
+
+<tr>
+<td align="left" valign="bottom">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+<td align="center" valign="bottom">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+<td align="right" valign="bottom">
+<span class="contactcard.testuser1">Test User 1</span>
+</td>
+</tr>
+</table>
+</body>
+</html>
